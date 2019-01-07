@@ -2,5 +2,16 @@
   "name": "demo-react",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "dev": "parcel src/index.html --open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.11.0"
+  }
 }
